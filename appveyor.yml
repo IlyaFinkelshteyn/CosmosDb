@@ -1,3 +1,9 @@
+image:
+- Previous Visual Studio 2015
+- Visual Studio 2015
+- Previous Visual Studio 2017
+- Visual Studio 2017
+
 install:
 - ps: |
     Set-Content -Value '"C:\Program Files\Azure Cosmos DB Emulator\CosmosDB.Emulator.exe" /NoUI /NoExplorer /NoFirewall' -Path .\startCosmosDb.cmd
